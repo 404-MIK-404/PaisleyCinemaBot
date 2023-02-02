@@ -3,9 +3,9 @@ from kinopoisk_unofficial.kinopoisk_api_client import KinopoiskApiClient
 
 
 class ConfigBot:
-    token_api_bot = '5743901649:AAHNYlpXm4sUx0vWVGdZadtvEP6cmTCFVEw'
+    token_api_bot = 'TOKEN-API-BOT-FATHER-ENTER-HERE'
 
-    token_api_client_kinopoisk = "04cf1757-8fc4-4ed9-9ac0-08af7a7275f8"
+    token_api_client_kinopoisk = "TOKEN-API-UNOFFICIAL-ENTER-HERE"
 
     def getBot(self):
         return TeleBot(self.token_api_bot)
